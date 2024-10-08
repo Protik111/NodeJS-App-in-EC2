@@ -1,0 +1,12 @@
+name: Node.js CI/CD
+
+on:
+  push:
+      branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: self-hosted
+    steps:
+    run:
+        echo "hello"
